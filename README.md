@@ -13,17 +13,6 @@ This project demonstrates **Behavior-Driven Development (BDD)** for testing bowl
 
 ---
 
-## 📂 Project Structure
-src
-├─ main
-│ └─ java
-│ └─ <scoring logic classes>
-└─ test
-├─ java
-│ │ └─ <step definitions / runners>
-└─ resources
-└─ features
-└─ *.feature # Gherkin scenarios
 ## How It Works
 Feature files describe bowling scenarios in Gherkin syntax.
 
