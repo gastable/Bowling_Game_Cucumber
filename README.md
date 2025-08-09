@@ -12,7 +12,20 @@ This project demonstrates **Behavior-Driven Development (BDD)** for testing bowl
 - *(Optional)* **Eclipse IDE** with Cucumber plugin
 
 ---
+## 📂 Project Structure
 
+```
+src
+├─ main
+│ └─ java
+│ └─ <scoring logic classes>
+└─ test
+├─ java
+│ │ └─ <step definitions / runners>
+└─ resources
+└─ features
+└─ *.feature # Gherkin scenarios
+```
 ## How It Works
 Feature files describe bowling scenarios in Gherkin syntax.
 
@@ -22,4 +35,11 @@ Scoring logic implements ten-pin bowling rules.
 
 JUnit runner executes the features and verifies expected results.
 
+## 📝 Example Scenarios
+
+| Scenario                     | Expected Score |
+|------------------------------|----------------|
+| Perfect game (12 strikes)    | 300            |
+| All spares with 5 pins bonus | 150            |
+| Open frames only (e.g., 9-)  | 90             |
 
