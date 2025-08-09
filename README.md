@@ -26,7 +26,7 @@ src
 └─ features
 └─ *.feature # Gherkin scenarios
 ```
-## How It Works
+## 🧩 How It Works
 Feature files describe bowling scenarios in Gherkin syntax.
 
 Step definitions map Gherkin steps to Java code.
